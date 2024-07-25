@@ -1,5 +1,3 @@
-Sure! Here's a sample README file for your software that helps users find certain void shards in the game "The First Descendant" via a GUI:
-
 ```markdown
 # The First Descendant Void Shard Finder
 
