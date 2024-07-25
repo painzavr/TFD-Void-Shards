@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="910.0" xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.HelloController">
+   <children>
+      <CheckBox fx:id="unorganic" layoutX="305.0" layoutY="45.0" mnemonicParsing="false" onAction="#updateShardBox" prefHeight="30.0" prefWidth="125.0" text="Unorganic" AnchorPane.leftAnchor="295.0" AnchorPane.topAnchor="45.0">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="organic" layoutX="433.0" layoutY="45.0" mnemonicParsing="false" onAction="#updateShardBox" prefHeight="30.0" prefWidth="125.0" text="Organic" AnchorPane.leftAnchor="430.0">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <ChoiceBox fx:id="shardBox" layoutX="429.0" layoutY="150.0" prefHeight="30.0" prefWidth="150.0" visible="false" AnchorPane.leftAnchor="725.0" AnchorPane.topAnchor="45.0" />
+      <CheckBox layoutX="555.0" layoutY="45.0" mnemonicParsing="false" onAction="#shardChange" prefHeight="30.0" prefWidth="150.0" text="Shard Priority" AnchorPane.leftAnchor="565.0" AnchorPane.topAnchor="45.0">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <Button layoutX="809.0" layoutY="177.0" mnemonicParsing="false" onAction="#search" prefHeight="348.0" prefWidth="76.0" text="Search" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="180.0" />
+      <CheckBox fx:id="chillBox" layoutX="66.0" layoutY="136.0" mnemonicParsing="false" onContextMenuRequested="#setAllActive" prefHeight="30.0" prefWidth="76.0" text="Chill" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="electricityBox" layoutX="116.0" layoutY="130.0" mnemonicParsing="false" onContextMenuRequested="#setAllActive" prefHeight="30.0" text="Electricity" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="fireBox" layoutX="239.0" layoutY="130.0" mnemonicParsing="false" onContextMenuRequested="#setAllActive" prefHeight="30.0" text="Fire" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="toxinBox" layoutX="320.0" layoutY="130.0" mnemonicParsing="false" onContextMenuRequested="#setAllActive" prefHeight="30.0" text="Toxin" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="nonAttributeBox" layoutX="405.0" layoutY="130.0" mnemonicParsing="false" onContextMenuRequested="#setAllActive" prefHeight="30.0" prefWidth="150.0" text="NonAttribute" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <ToggleButton fx:id="mode" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="565.0" layoutY="130.0" maxHeight="30.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" scaleShape="false" selected="true" text="Hard Mode" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font size="14.0" />
+         </font></ToggleButton>
+      <TableView fx:id="placeList" layoutX="20.0" layoutY="181.0" prefHeight="300.0" prefWidth="800.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="180.0" />
+      <CheckBox fx:id="polymer" layoutX="163.0" layoutY="45.0" mnemonicParsing="false" onAction="#updateShardBox" prefHeight="30.0" prefWidth="125.0" text="Polymer" AnchorPane.leftAnchor="160.0">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="monomer" layoutX="30.0" layoutY="45.0" mnemonicParsing="false" onAction="#updateShardBox" prefHeight="30.0" prefWidth="125.0" text="Monomer" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="45.0">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <Separator layoutX="25.0" layoutY="77.0" prefHeight="17.0" prefWidth="800.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="80.0" />
+      <Label layoutX="15.0" layoutY="12.0" text="Shard Type" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="11.0" layoutY="96.0" text="Elemental Type" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="16.0" layoutY="175.0" prefHeight="17.0" prefWidth="800.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="160.0" />
+   </children>
+</AnchorPane>
