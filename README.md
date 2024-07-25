@@ -21,7 +21,7 @@ Welcome to the **The First Descendant Void Shard Finder**! This software provide
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/the-first-descendant-void-shard-finder.git
+   git clone https://github.com/painzavr/TFD-Void-Shards.git
    cd the-first-descendant-void-shard-finder
    ```
 
