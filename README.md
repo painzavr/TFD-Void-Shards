@@ -1,4 +1,4 @@
-```markdown
+
 # The First Descendant Void Shard Finder
 
 Welcome to the **The First Descendant Void Shard Finder**! This software provides an intuitive GUI to help players locate specific void shards in the game "The First Descendant."
